@@ -130,10 +130,7 @@ main:
               | ./spim -exception_file ../CPU/exceptions.s ../../poc1.asm
 ```
 
-<div align="center">
-<img src="asserts/poc1.png" alt="Description" style="max-width:100%; height:auto;"
-height="300">
-</div>
+![](asserts/poc1.png)
 
 ### BUG2: Bypass Check in `READ_SYSCALL` and `WRITE_SYSCALL` Leading to Out-of-Bounds Read/Write
 
@@ -202,7 +199,5 @@ main:
               | ./spim -exception_file ../CPU/exceptions.s ../../poc2.asm
 ```
 
-<div align="center">
-<img src="asserts/poc2.png" alt="Description" style="max-width:100%; height:auto;"
-height="300">
-</div>
+![](asserts/poc2.png)
+
